@@ -9,5 +9,16 @@ body {
 }
 
 .title {
+  font-size: 3rem;
   text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
 }
