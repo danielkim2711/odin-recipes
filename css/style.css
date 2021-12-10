@@ -22,3 +22,10 @@ body {
   width: 100%;
   max-width: 400px;
 }
+
+.recipes {
+  font-size: 1.25rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
