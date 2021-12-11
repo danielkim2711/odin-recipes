@@ -1,7 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
@@ -24,8 +28,12 @@ body {
 }
 
 .recipes {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+}
+
+.recipes > li > a {
+  text-decoration: none;
 }
